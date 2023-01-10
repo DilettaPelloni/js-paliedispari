@@ -27,12 +27,7 @@ function isPalindrom (givenString) {
         invertedString = invertedString.concat(givenString.charAt(i));
     }
 
-    if (givenString == invertedString) {
-        return true;
-    }
-    else {
-        return false;
-    }
+    return givenString == invertedString;
 }
 
 if (isPalindrom(finalString)) {
